@@ -1,0 +1,49 @@
+div {
+    display: block;
+}
+
+div.field {
+    margin-bottom: 2em;
+    font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    color: #555;
+}
+
+.parameter {
+    border-bottom: 1px solid #EEE;
+    padding: 8px 0
+}
+
+.parameter:first-child {
+    border-top: 1px solid #EEE;
+}
+
+.parameter:last-child {
+    border-bottom: 0;
+}
+
+.parameter:hover {
+    background-color: #F8F8F8;
+}
+
+.parameter .param {
+    display: block;
+    float: left;
+    width: 220px;
+    color: #333;
+    font-weight: bold;
+}
+
+.parameter .param span {
+    display: block;
+    color: #999;
+    font-weight: normal;
+}
+
+.parameter p {
+    margin-left: 220px;
+    margin-top: -2px;
+}
+
+.title-url {
+    color: #333;
+}
